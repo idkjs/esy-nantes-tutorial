@@ -1,7 +1,16 @@
 # esy-nantes-tutorial
 
-## Can `pesy` handle `c` files?
+## Can `pesy` handle `c` files? Yes!
 
+Edit `buildDirs` by adding a `cNames` key that takes a list of strings:
+
+```json
+"library": {
+      "name": "esy-nantes-tutorial.lib",
+      "namespace": "EsyNantesTutorial",
+      "cNames":["hello_stubs"]
+    },
+```
 
 [![CircleCI](https://circleci.com/gh/yourgithubhandle/esy-nantes-tutorial/tree/master.svg?style=svg)](https://circleci.com/gh/yourgithubhandle/esy-nantes-tutorial/tree/master)
 
