@@ -7,4 +7,5 @@
    (name EsyNantesTutorial)
    ; Other libraries list this name in their package.json 'require' field to use this library.
    (public_name esy-nantes-tutorial.lib)
+   (c_names  hello_stubs )  ; From package.json cNames field
 )

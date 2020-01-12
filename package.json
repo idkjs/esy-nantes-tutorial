@@ -19,7 +19,8 @@
     },
     "library": {
       "name": "esy-nantes-tutorial.lib",
-      "namespace": "EsyNantesTutorial"
+      "namespace": "EsyNantesTutorial",
+      "cNames":["hello_stubs"]
     },
     "executable": {
       "require": ["esy-nantes-tutorial.lib"],

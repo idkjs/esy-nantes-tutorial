@@ -1,5 +1,7 @@
 # esy-nantes-tutorial
 
+## Can `pesy` handle `c` files?
+
 
 [![CircleCI](https://circleci.com/gh/yourgithubhandle/esy-nantes-tutorial/tree/master.svg?style=svg)](https://circleci.com/gh/yourgithubhandle/esy-nantes-tutorial/tree/master)
 
@@ -39,7 +41,7 @@ esy build
 After building the project, you can run the main binary that is produced.
 
 ```
-esy x EsyNantesTutorialApp.exe 
+esy x EsyNantesTutorialApp.exe
 ```
 
 ## Running Tests:
@@ -48,3 +50,5 @@ esy x EsyNantesTutorialApp.exe
 # Runs the "test" command in `package.json`.
 esy test
 ```
+
+
